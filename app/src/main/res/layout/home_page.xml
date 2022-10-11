@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/paper_img9"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <ImageButton
+        android:id="@+id/AuthInfo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/infos"
+        android:contentDescription="@string/Music" />
+
+    <ImageButton
+        android:id="@+id/Audio"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/music_on"
+        android:contentDescription="@string/Info" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Singley"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:fontFamily="serif-monospace"
+                android:text="@string/PlayGameS"
+                android:gravity="center"
+                android:textColor="@color/Black"
+                android:background="@drawable/trans_bkgd"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Doubley"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:fontFamily="serif-monospace"
+                android:text="@string/PlayGameD"
+                android:textColor="@color/Black"
+                android:gravity="center"
+                android:background="@drawable/trans_bkgd"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Close"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/trans_bkgd"
+        android:fontFamily="serif-monospace"
+        android:padding="10dp"
+        android:text="@string/Exit"
+        android:textColor="@color/Black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

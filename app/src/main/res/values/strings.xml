@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="Heading">I am A Header</string>
+    <string name="Info">Info</string>
+    <string name="Music">Audio</string>
+    <string name="Human">Human</string>
+    <string name="Android">Android</string>
+    <string name="Exit">Exit</string>
+    <string name="PlayGameS">Single Player</string>
+    <string name="PlayGameD">Double Player</string>
+    <string name="FirstPlayer">First Player</string>
+    <string name="SecondPlayer">Second Player</string>
+    <string name="BACK">BACK</string>
+    <string name="START">START</string>
+    <string name="Close">Close</string>
+    <string name="GameOptions">Game Options</string>
+    <string name="TicTacToe">Tic Tac Toe</string>
+    <string name="Easy">Easy</string>
+    <string name="Medium">Medium</string>
+    <string name="Hard">Hard</string>
+    <string name="Image">Image</string>
+    <string name="Name">by MZQ</string>
+
+
+    <string name="Information">
+        This Game is made by\n
+        Mohammad Zaid Quarsihi\n
+        B.Tech 1st Year\n\n
+        This is My first android game which I have made to learn how to make android app\n
+        I am Learning android for making apps and I am a Beginner,\n
+        So,Please Rate this app to promote me to make more games and apps.\n\n
+        Thank You for downloading this game.\n
+    </string>
+
+</resources>
